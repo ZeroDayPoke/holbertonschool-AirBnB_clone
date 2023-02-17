@@ -74,6 +74,21 @@
     width: 100px;
 }
 
+.places .max_guests
+{
+    background: #FFFFFF url('../images/icon_group.png') 30px center no-repeat;
+}
+
+.places .number_bathrooms
+{
+    background: #FFFFFF url('../images/icon_bath.png') 30px center no-repeat;
+}
+
+.places .number_rooms
+{
+    background: #FFFFFF url('../images/icon_bed.png') 30px center no-repeat;
+}
+
 footer
 {
     position: relative;
