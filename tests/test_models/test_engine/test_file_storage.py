@@ -9,10 +9,6 @@ from models.base_model import BaseModel
 
 class TestFileStorage(unittest.TestCase):
     """file storage uwunit tests"""
-    def setUp(self):
-        self.file_storage = FileStorage()
-        self.file_path = FileStorage._FileStorage__file_path
-
     def test_new(self):
         obj = BaseModel()
         self.file_storage.new(obj)
@@ -49,10 +45,6 @@ class TestFileStorage(unittest.TestCase):
         objects = self.file_storage.all()
         self.assertEqual(obj.to_dict(),
                          objects["BaseModel.{}".format(obj.id)].to_dict())
-
-    def tearDown(self):
-        if os.path.exists(self.file_path):
-            os.remove(self.file_path)
 
 
 if __name__ == "__main__":
