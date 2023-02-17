@@ -30,22 +30,3 @@ header a
 {
 	margin-left: 10px;
 }
-
-.footer-container
-{
-	height: 60px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	bottom: 0;
-	background-color: #333333;
-	border-top: 1px solid #CCCCCC;
-}
-
-.footer-container span
-{
-	color: white;
-	font-size: 20px;
-}
