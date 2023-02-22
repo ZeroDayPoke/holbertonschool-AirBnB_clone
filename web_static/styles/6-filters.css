@@ -63,7 +63,7 @@
     display: block;
 }
 
-.filter .locations:hover, .filter .amenities:hover
+.filters .locations:hover, .filters .amenities:hover
 {
     background-color: #FAFAFA;
 }
